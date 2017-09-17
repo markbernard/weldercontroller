@@ -2,7 +2,7 @@
 
 # DISCLAIMER: Use at your own risk. Working with electricity can be dangerous. I assume no responsibily for your use of anything found in this repository. You have been warned.
 
-The code for this controller makes it easy to tell which state the controller is in. When you first power it on the green LED will light up. This means it is ready to weld. When you press the button to weld the red led will light up indicating that the welder is currently pushing current. Once the weld completes the welder will turn off and both leds will be off. After a delay of 2 seconds the welder will be ready again.
+The code for this controller makes it easy to tell which state the controller is in. When you first power it on the green LED will light up. This means it is ready to weld. When you press the button to weld the red LED will light up indicating that the welder is currently pushing current. Once the weld completes the welder will turn off and both LEDs will be off. After a delay of 2 seconds the welder will be ready again.
 
 This circuit requires minimal parts to go along with the controller. The code is written for a Node MCU v1.0 board but should port easily to any Arduino or ESP board.
 
